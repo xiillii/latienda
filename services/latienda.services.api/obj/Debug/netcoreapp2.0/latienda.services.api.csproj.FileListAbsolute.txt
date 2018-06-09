@@ -1,0 +1,11 @@
+/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/bin/Debug/netcoreapp2.0/latienda.services.api.deps.json
+/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/bin/Debug/netcoreapp2.0/latienda.services.api.runtimeconfig.json
+/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/bin/Debug/netcoreapp2.0/latienda.services.api.runtimeconfig.dev.json
+/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/bin/Debug/netcoreapp2.0/latienda.services.api.dll
+/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/bin/Debug/netcoreapp2.0/latienda.services.api.pdb
+/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.csprojResolveAssemblyReference.cache
+/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.csproj.CoreCompileInputs.cache
+/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.AssemblyInfoInputs.cache
+/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.AssemblyInfo.cs
+/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.dll
+/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.pdb
