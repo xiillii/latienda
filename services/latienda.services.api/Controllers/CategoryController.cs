@@ -20,11 +20,11 @@ namespace latienda.services.api.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<Category> Get()
+        public ActionResult Get()
         {
             var result = repository.Categories;
 
-            return result;
+            return Json(result);
         }
     }
 }

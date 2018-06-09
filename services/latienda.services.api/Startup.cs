@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using latienda.services.api.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -14,17 +15,20 @@ namespace latienda.services.api
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
-
         public IConfiguration Configuration { get; }
+
+        public Startup(IConfiguration configuration) => Configuration = configuration;
+
+
+
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<ICategoryRepository, FakeCategoryRepository>();
+            services.AddDbContext<CategoryDbContext>(options => options
+                                                    .UseSqlServer(
+                                                         Configuration["Data:LaTienda:ConnectionString"]));
+            services.AddTransient<ICategoryRepository, EFCategoryRepository>();
             services.AddMvc();
         }
 
@@ -37,6 +41,8 @@ namespace latienda.services.api
             }
 
             app.UseMvc();
+
+            SeedData.EnsurePopulated(app);
         }
     }
 }

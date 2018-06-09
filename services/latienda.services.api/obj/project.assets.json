@@ -12684,13 +12684,13 @@
       "projectName": "latienda.services.api",
       "projectPath": "/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/latienda.services.api.csproj",
       "packagesPath": "/Users/xiillii/.nuget/packages/",
-      "outputPath": "/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/obj",
+      "outputPath": "/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/xiillii/.config/NuGet/NuGet.Config"
+        "/Users/xiillii/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12713,19 +12713,18 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           },
           "Moq": {
             "target": "Package",
-            "version": "4.8.2"
+            "version": "[4.8.2, )"
           }
         },
         "imports": [
