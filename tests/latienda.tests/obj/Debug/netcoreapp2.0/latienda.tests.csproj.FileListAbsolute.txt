@@ -1,0 +1,13 @@
+/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/bin/Debug/netcoreapp2.0/xunit.runner.utility.netstandard15.dll
+/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netstandard15.dll
+/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/bin/Debug/netcoreapp2.0/latienda.tests.deps.json
+/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/bin/Debug/netcoreapp2.0/latienda.tests.runtimeconfig.json
+/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/bin/Debug/netcoreapp2.0/latienda.tests.runtimeconfig.dev.json
+/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/bin/Debug/netcoreapp2.0/latienda.tests.dll
+/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/bin/Debug/netcoreapp2.0/latienda.tests.pdb
+/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/obj/Debug/netcoreapp2.0/latienda.tests.csproj.CoreCompileInputs.cache
+/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/obj/Debug/netcoreapp2.0/latienda.tests.AssemblyInfoInputs.cache
+/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/obj/Debug/netcoreapp2.0/latienda.tests.AssemblyInfo.cs
+/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/obj/Debug/netcoreapp2.0/latienda.tests.dll
+/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/obj/Debug/netcoreapp2.0/latienda.tests.pdb

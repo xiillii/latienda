@@ -26,5 +26,17 @@ namespace latienda.services.api.Controllers
 
             return Json(result);
         }
+
+        [HttpPost]
+        public ActionResult Post([FromBody]Category request)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = repository.AddCategory(request);
+
+                return Json(result);
+            }
+            return BadRequest();
+        }
     }
 }

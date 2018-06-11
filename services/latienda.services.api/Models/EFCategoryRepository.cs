@@ -13,5 +13,13 @@ namespace latienda.services.api.Models
         }
 
         public IQueryable<Category> Categories => context.Categories;
+
+        public Category AddCategory(Category request)
+        {
+            context.Categories.Add(request);
+            context.SaveChanges();
+
+            return request;
+        }
     }
 }

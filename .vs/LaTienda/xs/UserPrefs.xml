@@ -1,21 +1,19 @@
 ﻿<Properties StartupConfiguration="{33E9E233-004E-48BE-B880-A2CD7443890A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="services/latienda.services.api/Models/SeedData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="services/latienda.services.api/Models/FakeCategoryRepository.cs">
     <Files>
-      <File FileName="services/latienda.services.api/Models/Category.cs" Line="4" Column="26" />
-      <File FileName="services/latienda.services.api/Models/ICategoryRepository.cs" Line="8" Column="48" />
-      <File FileName="services/latienda.services.api/Models/FakeCategoryRepository.cs" Line="13" Column="53" />
-      <File FileName="services/latienda.services.api/Startup.cs" Line="38" Column="37" />
-      <File FileName="services/latienda.services.api/Controllers/CategoryController.cs" Line="27" Column="32" />
+      <File FileName="services/latienda.services.api/Startup.cs" Line="45" Column="43" />
+      <File FileName="services/latienda.services.api/Controllers/CategoryController.cs" Line="31" Column="55" />
       <File FileName="services/latienda.services.api/Controllers/ValuesController.cs" Line="9" Column="32" />
       <File FileName="services/latienda.services.api/latienda.services.api.csproj" Line="1" Column="1" />
-      <File FileName="services/latienda.services.api/Models/CategoryDbContext.cs" Line="13" Column="55" />
-      <File FileName="services/latienda.services.api/Models/EFCategoryRepository.cs" Line="15" Column="70" />
       <File FileName="services/latienda.services.api/appsettings.json" Line="17" Column="126" />
       <File FileName="services/latienda.services.api/Program.cs" Line="23" Column="88" />
       <File FileName="services/latienda.services.api/Migrations/CategoryDbContextModelSnapshot.cs" Line="1" Column="1" />
       <File FileName="services/latienda.services.api/Migrations/20180609061423_Initial.Designer.cs" Line="1" Column="1" />
       <File FileName="services/latienda.services.api/Migrations/20180609061423_Initial.cs" Line="1" Column="1" />
-      <File FileName="services/latienda.services.api/Models/SeedData.cs" Line="4" Column="19" />
+      <File FileName="services/latienda.services.api/Models/ICategoryRepository.cs" Line="10" Column="12" />
+      <File FileName="services/latienda.services.api/Models/EFCategoryRepository.cs" Line="22" Column="28" />
+      <File FileName="services/latienda.services.api/Models/Category.cs" Line="12" Column="18" />
+      <File FileName="services/latienda.services.api/Models/FakeCategoryRepository.cs" Line="7" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -25,5 +23,4 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.tests.latienda.tests FirstBuild="True" />
 </Properties>

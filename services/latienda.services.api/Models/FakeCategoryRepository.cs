@@ -12,5 +12,12 @@ namespace latienda.services.api.Models
             new Category{CategoryId = Guid.NewGuid(), Name = "Category 2", Active = true},
             new Category{CategoryId = Guid.NewGuid(), Name = "Category 3", Active = true}
         }.AsQueryable();
+
+        public Category AddCategory(Category request)
+        {
+            
+
+            return request;
+        }
     }
 }
