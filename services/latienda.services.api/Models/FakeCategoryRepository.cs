@@ -19,5 +19,19 @@ namespace latienda.services.api.Models
 
             return request;
         }
+
+        public Category DeleteCategory(Guid categoryIdentifier)
+        {
+            
+
+            return null;
+        }
+
+        public Category UpdateCategory(Category request, string categoryIdentifier)
+        {
+            
+
+            return null;
+        }
     }
 }

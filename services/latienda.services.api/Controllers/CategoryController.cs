@@ -19,6 +19,10 @@ namespace latienda.services.api.Controllers
             this.repository = repository;
         }
 
+        /// <summary>
+        /// Listado de categorias
+        /// </summary>
+        /// <returns>The get.</returns>
         [HttpGet]
         public ActionResult Get()
         {
@@ -27,6 +31,11 @@ namespace latienda.services.api.Controllers
             return Json(result);
         }
 
+        /// <summary>
+        /// Agregar nueva categoria
+        /// </summary>
+        /// <returns>The post.</returns>
+        /// <param name="request">Request.</param>
         [HttpPost]
         public ActionResult Post([FromBody]Category request)
         {
@@ -36,7 +45,21 @@ namespace latienda.services.api.Controllers
 
                 return Json(result);
             }
-            return BadRequest();
+            return BadRequest(ModelState);
+        }
+
+
+        [HttpPut("{categoryIdentification}")]
+        public ActionResult Put([FromBody]Category request, string categoryIdentification)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = repository.UpdateCategory(request, categoryIdentification);
+
+                return Json(result);
+            }
+
+            return BadRequest(ModelState);
         }
     }
 }
