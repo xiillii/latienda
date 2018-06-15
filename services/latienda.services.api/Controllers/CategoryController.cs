@@ -74,5 +74,18 @@ namespace latienda.services.api.Controllers
 
             return BadRequest(ModelState);
         }
+
+        [HttpGet("{categoryIdentifier}")]
+        public ActionResult GetOne(string categoryIdentifier)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = repository.Get(categoryIdentifier);
+
+                return Json(result);
+            }
+
+            return BadRequest(ModelState);
+        }
     }
 }

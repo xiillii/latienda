@@ -10,5 +10,6 @@ namespace latienda.services.api.Models
         Category AddCategory(Category request);
         Category DeleteCategory(string categoryIdentifier);
         Category UpdateCategory(Category request, string categoryIdentifier);
+        Category Get(string categoryIdentifier);
     }
 }

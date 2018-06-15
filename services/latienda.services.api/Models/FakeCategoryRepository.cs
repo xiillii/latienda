@@ -33,5 +33,11 @@ namespace latienda.services.api.Models
 
             return null;
         }
+        
+        public Category Get(string categoryIdentifier)
+        {
+            
+            return null;
+        }
     }
 }

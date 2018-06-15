@@ -27,7 +27,7 @@ namespace latienda.services.api.Models
             Guid.TryParse(categoryIdentifier, out var _theId);
 
             var item = context.Categories
-                              .SingleOrDefault(c => c.CategoryId == _theId);
+                .SingleOrDefault(c => c.CategoryId == _theId);
 
             if (item != null)
             {
@@ -49,6 +49,16 @@ namespace latienda.services.api.Models
                 item.Active = request.Active;
                 context.SaveChanges();
             }
+
+            return item;
+        }
+
+        public Category Get(string categoryIdentifier)
+        {
+            Guid.TryParse(categoryIdentifier, out var _theId);
+            var item = context.Categories.SingleOrDefault(c => c.CategoryId == _theId);
+
+            
 
             return item;
         }

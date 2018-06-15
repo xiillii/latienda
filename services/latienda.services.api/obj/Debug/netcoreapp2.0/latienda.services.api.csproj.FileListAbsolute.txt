@@ -8,3 +8,4 @@
 /Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.AssemblyInfo.cs
 /Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.dll
 /Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.pdb
+/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.csprojResolveAssemblyReference.cache
