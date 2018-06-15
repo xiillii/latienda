@@ -8,7 +8,7 @@ namespace latienda.services.api.Models
         IQueryable<Category> Categories { get; }
 
         Category AddCategory(Category request);
-        Category DeleteCategory(Guid categoryIdentifier);
+        Category DeleteCategory(string categoryIdentifier);
         Category UpdateCategory(Category request, string categoryIdentifier);
     }
 }

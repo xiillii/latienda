@@ -22,10 +22,12 @@ namespace latienda.services.api.Models
             return request;
         }
 
-        public Category DeleteCategory(Guid categoryIdentifier)
+        public Category DeleteCategory(string categoryIdentifier)
         {
+            Guid.TryParse(categoryIdentifier, out var _theId);
+
             var item = context.Categories
-                              .SingleOrDefault(c => c.CategoryId == categoryIdentifier);
+                              .SingleOrDefault(c => c.CategoryId == _theId);
 
             if (item != null)
             {

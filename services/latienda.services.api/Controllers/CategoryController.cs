@@ -49,12 +49,25 @@ namespace latienda.services.api.Controllers
         }
 
 
-        [HttpPut("{categoryIdentification}")]
-        public ActionResult Put([FromBody]Category request, string categoryIdentification)
+        [HttpPut("{categoryIdentifier}")]
+        public ActionResult Put([FromBody]Category request, string categoryIdentifier)
         {
             if (ModelState.IsValid)
             {
-                var result = repository.UpdateCategory(request, categoryIdentification);
+                var result = repository.UpdateCategory(request, categoryIdentifier);
+
+                return Json(result);
+            }
+
+            return BadRequest(ModelState);
+        }
+
+        [HttpDelete("{categoryIdentifier}")]
+        public ActionResult Delete(string categoryIdentifier)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = repository.DeleteCategory(categoryIdentifier);
 
                 return Json(result);
             }

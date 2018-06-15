@@ -20,7 +20,7 @@ namespace latienda.services.api.Models
             return request;
         }
 
-        public Category DeleteCategory(Guid categoryIdentifier)
+        public Category DeleteCategory(string categoryIdentifier)
         {
             
 
