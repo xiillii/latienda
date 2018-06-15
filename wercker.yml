@@ -7,3 +7,13 @@ build:
         cdw: latienda.services.api
         code: |
           dotnet clean
+    - script:
+        name: restore
+        cdw: latienda.services.api
+        code: |
+          dotnet restore
+    - script:
+        name: build
+        cdw: latienda.services.api
+        code: |
+          dotnet build
