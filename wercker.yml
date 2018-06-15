@@ -17,3 +17,13 @@ build:
         cdw: latienda.services.api
         code: |
           dotnet build
+    - script:
+        name: publish
+        cdw: latienda.services.api
+        code: |
+          dotnet publish -o publish
+    - script:
+        name: copy binary
+        cdw: latienda.services.api
+        code: |
+          cp -r . $WERCKER_OUTPUT_DIR/services
