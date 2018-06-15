@@ -25,11 +25,16 @@
             <e p="CategoryDbContextModelSnapshot.cs" t="Include" />
           </e>
           <e p="Models" t="Include">
+            <e p="BaseResponse.cs" t="Include" />
+            <e p="CategoriesResponse.cs" t="Include" />
             <e p="Category.cs" t="Include" />
             <e p="CategoryDbContext.cs" t="Include" />
+            <e p="CategoryResponse.cs" t="Include" />
             <e p="EFCategoryRepository.cs" t="Include" />
             <e p="FakeCategoryRepository.cs" t="Include" />
             <e p="ICategoryRepository.cs" t="Include" />
+            <e p="Meta.cs" t="Include" />
+            <e p="ResponseTypes.cs" t="Include" />
             <e p="SeedData.cs" t="Include" />
           </e>
           <e p="obj" t="ExcludeRecursive">

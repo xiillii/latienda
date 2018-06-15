@@ -13,31 +13,14 @@ namespace latienda.services.api.Models
             new Category{CategoryId = Guid.NewGuid(), Name = "Category 3", Active = true}
         }.AsQueryable();
 
-        public Category AddCategory(Category request)
-        {
-            
+        public Category AddCategory(Category request) => null;
 
-            return request;
-        }
+        public Category DeleteCategory(string categoryIdentifier) => null;
 
-        public Category DeleteCategory(string categoryIdentifier)
-        {
-            
-
-            return null;
-        }
-
-        public Category UpdateCategory(Category request, string categoryIdentifier)
-        {
-            
-
-            return null;
-        }
+        public Category UpdateCategory(Category request, string categoryIdentifier) => null;
         
-        public Category Get(string categoryIdentifier)
-        {
-            
-            return null;
-        }
+        public CategoryResponse Get(string categoryIdentifier) => null;
+
+        public CategoriesResponse ListCategories() => null;
     }
 }

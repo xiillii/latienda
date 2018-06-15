@@ -26,9 +26,16 @@ namespace latienda.services.api.Controllers
         [HttpGet]
         public ActionResult Get()
         {
-            var result = repository.Categories;
+            var result = repository.ListCategories();
 
-            return Json(result);
+            if (result.Data != null)
+            {
+                result.Meta.Status = ResponseTypes.Success;
+                return Ok(result);
+            }
+            
+            result.Meta.Status = ResponseTypes.Failed;
+            return NotFound(result);
         }
 
         /// <summary>
@@ -78,14 +85,18 @@ namespace latienda.services.api.Controllers
         [HttpGet("{categoryIdentifier}")]
         public ActionResult GetOne(string categoryIdentifier)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+            
+            var result = repository.Get(categoryIdentifier);
+
+            if (result.Data != null)
             {
-                var result = repository.Get(categoryIdentifier);
-
-                return Json(result);
+                result.Meta.Status = ResponseTypes.Success;
+                return Ok(result);
             }
-
-            return BadRequest(ModelState);
+            
+            result.Meta.Status = ResponseTypes.Failed;
+            return NotFound(result);
         }
     }
 }
