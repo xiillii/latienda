@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8de12122-1b4a-4a07-b2f4-f81a47dec31d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CategoryController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Controllers/CategoryController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+              <folding>
+                <marker date="1529043658919" expanded="true" signature="6:164" ph="..." />
+                <marker date="1529043658919" expanded="true" signature="323:2864" ph="{...}" />
+                <marker date="1529043658919" expanded="true" signature="406:2862" ph="{...}" />
+                <marker date="1529043658919" expanded="true" signature="536:598" ph="{...}" />
+                <marker date="1529043658919" expanded="true" signature="608:718" ph="/// Listado de categorias ... " />
+                <marker date="1529043658919" expanded="true" signature="770:1110" ph="{...}" />
+                <marker date="1529043658919" expanded="true" signature="872:995" ph="{...}" />
+                <marker date="1529043658919" expanded="true" signature="1120:1284" ph="/// Agregar nueva categoria ... " />
+                <marker date="1529043658919" expanded="true" signature="1364:1591" ph="{...}" />
+                <marker date="1529043658919" expanded="true" signature="1410:1538" ph="{...}" />
+                <marker date="1529043658919" expanded="true" signature="1722:1973" ph="{...}" />
+                <marker date="1529043658919" expanded="true" signature="1768:1919" ph="{...}" />
+                <marker date="1529043658919" expanded="true" signature="2081:2323" ph="{...}" />
+                <marker date="1529043658919" expanded="true" signature="2127:2269" ph="{...}" />
+                <marker date="1529043658919" expanded="true" signature="2428:2856" ph="{...}" />
+                <marker date="1529043658919" expanded="true" signature="2618:2741" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ICategoryRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/ICategoryRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <marker date="1529043658913" expanded="false" signature="6:66" ph="..." />
+                <marker date="1529043658913" expanded="true" signature="106:501" ph="{...}" />
+                <marker date="1529043658913" expanded="true" signature="149:499" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EFCategoryRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/EFCategoryRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="32" column="82" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
+              <folding>
+                <marker date="1529043658925" expanded="true" signature="6:66" ph="..." />
+                <marker date="1529043658925" expanded="true" signature="106:3144" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="168:3142" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="290:346" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="469:1039" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="540:830" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="590:781" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="889:1000" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="1094:1223" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="1290:1652" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="1500:1616" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="1737:2120" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="1929:2084" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="2130:2299" ph="/// Obtiene un solo valor de categoría ... " />
+                <marker date="1529043658925" expanded="true" signature="2362:3136" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="2431:2634" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="2481:2620" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="2830:3003" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="2917:2988" ph="{...}" />
+                <marker date="1529043658925" expanded="true" signature="3020:3084" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryDbContext.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/CategoryDbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <marker date="1528695173163" expanded="false" signature="6:50" ph="..." />
+                <marker date="1528695173163" expanded="true" signature="90:336" ph="{...}" />
+                <marker date="1528695173163" expanded="true" signature="139:334" ph="{...}" />
+                <marker date="1528695173163" expanded="true" signature="251:271" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoriesResponse.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/CategoriesResponse.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+              <folding>
+                <marker date="1529043658906" expanded="true" signature="6:52" ph="..." />
+                <marker date="1529043658906" expanded="true" signature="92:214" ph="{...}" />
+                <marker date="1529043658906" expanded="true" signature="145:212" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="35" column="112" selection-start-line="35" selection-start-column="112" selection-end-line="35" selection-end-column="112" />
+              <folding>
+                <marker date="1529042764274" expanded="true" signature="6:426" ph="..." />
+                <marker date="1529042764274" expanded="true" signature="459:1841" ph="{...}" />
+                <marker date="1529042764274" expanded="true" signature="486:1839" ph="{...}" />
+                <marker date="1529042764274" expanded="true" signature="805:1440" ph="{...}" />
+                <marker date="1529042764274" expanded="true" signature="1198:1428" ph="{...}" />
+                <marker date="1529042764274" expanded="true" signature="1628:1833" ph="{...}" />
+                <marker date="1529042764274" expanded="true" signature="1675:1752" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Meta.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/Meta.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+              <folding>
+                <marker date="1529042983085" expanded="true" signature="6:47" ph="..." />
+                <marker date="1529042983085" expanded="true" signature="87:328" ph="{...}" />
+                <marker date="1529042983085" expanded="true" signature="111:326" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/Category.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1528730512470" expanded="true" signature="6:58" ph="..." />
+                <marker date="1528730512470" expanded="true" signature="98:324" ph="{...}" />
+                <marker date="1528730512470" expanded="true" signature="126:322" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryResponse.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/CategoryResponse.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <folding>
+                <marker date="1529040807464" expanded="true" signature="38:146" ph="{...}" />
+                <marker date="1529040807464" expanded="true" signature="89:144" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FakeCategoryRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/FakeCategoryRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="23" column="59" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="59" />
+              <folding>
+                <marker date="1529043658930" expanded="false" signature="6:66" ph="..." />
+                <marker date="1529043658930" expanded="true" signature="106:935" ph="{...}" />
+                <marker date="1529043658930" expanded="true" signature="170:933" ph="{...}" />
+                <marker date="1529043658930" expanded="true" signature="253:536" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/services/latienda.services.api/Models/CategoriesResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/latienda.services.api/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/latienda.services.api/Models/CategoryDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/latienda.services.api/Models/EFCategoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/latienda.services.api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/latienda.services.api/Models/Meta.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/latienda.services.api/Models/Category.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/latienda.services.api/Models/FakeCategoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/latienda.services.api/Models/ResponseTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/latienda.services.api/Models/ICategoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/latienda.services.api/Models/BaseResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/services/latienda.services.api/Models/CategoryResponse.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/services/latienda.services.api/Models/ResponseTypes.cs" />
+        <option value="$PROJECT_DIR$/services/latienda.services.api/Models/BaseResponse.cs" />
+        <option value="$PROJECT_DIR$/services/latienda.services.api/Models/CategoryResponse.cs" />
+        <option value="$PROJECT_DIR$/services/latienda.services.api/Startup.cs" />
+        <option value="$PROJECT_DIR$/services/latienda.services.api/Models/Meta.cs" />
+        <option value="$PROJECT_DIR$/services/latienda.services.api/Models/CategoriesResponse.cs" />
+        <option value="$PROJECT_DIR$/services/latienda.services.api/Models/FakeCategoryRepository.cs" />
+        <option value="$PROJECT_DIR$/services/latienda.services.api/Models/ICategoryRepository.cs" />
+        <option value="$PROJECT_DIR$/services/latienda.services.api/Models/EFCategoryRepository.cs" />
+        <option value="$PROJECT_DIR$/services/latienda.services.api/Controllers/CategoryController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1197" />
+    <option name="height" value="718" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LaTienda (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LaTienda (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="services" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LaTienda (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="services" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="latienda.services.api" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LaTienda (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="services" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="latienda.services.api" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="LaTienda (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="services" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="latienda.services.api" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/services/latienda.services.api/bin/Debug/netcoreapp2.0/latienda.services.api.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/services/latienda.services.api" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:59801/" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/services/latienda.services.api/latienda.services.api.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:59801/" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8de12122-1b4a-4a07-b2f4-f81a47dec31d" name="Default" comment="" />
+      <created>1529035350323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529035350323</updated>
+      <workItem from="1529035360404" duration="827000" />
+      <workItem from="1529038019348" duration="5191000" />
+    </task>
+    <task id="LOCAL-00001" summary="Operación Get One">
+      <created>1529036058404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529036058405</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Optimización del Response">
+      <created>1529043823561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529043823561</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6018000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1197" height="718" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2008658" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Operación Get One" />
+    <MESSAGE value="Optimización del Response" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimización del Response" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Controllers/CategoryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+          <folding>
+            <marker date="1529043658919" expanded="true" signature="6:164" ph="..." />
+            <marker date="1529043658919" expanded="true" signature="323:2864" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="406:2862" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="536:598" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="608:718" ph="/// Listado de categorias ... " />
+            <marker date="1529043658919" expanded="true" signature="770:1110" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="872:995" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="1120:1284" ph="/// Agregar nueva categoria ... " />
+            <marker date="1529043658919" expanded="true" signature="1364:1591" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="1410:1538" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="1722:1973" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="1768:1919" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="2081:2323" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="2127:2269" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="2428:2856" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="2618:2741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/ICategoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <marker date="1529043658913" expanded="false" signature="6:66" ph="..." />
+            <marker date="1529043658913" expanded="true" signature="106:501" ph="{...}" />
+            <marker date="1529043658913" expanded="true" signature="149:499" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/EFCategoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="63" column="9" selection-start-line="55" selection-start-column="8" selection-end-line="63" selection-end-column="9" />
+          <folding>
+            <marker date="1529043658925" expanded="true" signature="6:66" ph="..." />
+            <marker date="1529043658925" expanded="true" signature="106:3144" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="168:3142" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="290:346" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="469:1039" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="540:830" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="590:781" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="889:1000" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="1094:1223" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="1290:1652" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="1500:1616" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="1737:2120" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="1929:2084" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="2130:2299" ph="/// Obtiene un solo valor de categoría ... " />
+            <marker date="1529043658925" expanded="true" signature="2362:3136" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="2431:2634" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="2481:2620" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="2830:3003" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="2917:2988" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="3020:3084" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/FakeCategoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <marker date="1529043658930" expanded="false" signature="6:66" ph="..." />
+            <marker date="1529043658930" expanded="true" signature="106:935" ph="{...}" />
+            <marker date="1529043658930" expanded="true" signature="170:933" ph="{...}" />
+            <marker date="1529043658930" expanded="true" signature="253:536" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/ResponseTypes.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <marker date="1529040807437" expanded="true" signature="38:116" ph="{...}" />
+            <marker date="1529040807437" expanded="true" signature="70:114" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/BaseResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <marker date="1529040807429" expanded="true" signature="38:123" ph="{...}" />
+            <marker date="1529040807429" expanded="true" signature="70:121" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/CategoryResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding>
+            <marker date="1529040807464" expanded="true" signature="38:146" ph="{...}" />
+            <marker date="1529040807464" expanded="true" signature="89:144" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="35" column="112" selection-start-line="35" selection-start-column="112" selection-end-line="35" selection-end-column="112" />
+          <folding>
+            <marker date="1529042764274" expanded="true" signature="6:426" ph="..." />
+            <marker date="1529042764274" expanded="true" signature="459:1841" ph="{...}" />
+            <marker date="1529042764274" expanded="true" signature="486:1839" ph="{...}" />
+            <marker date="1529042764274" expanded="true" signature="805:1440" ph="{...}" />
+            <marker date="1529042764274" expanded="true" signature="1198:1428" ph="{...}" />
+            <marker date="1529042764274" expanded="true" signature="1628:1833" ph="{...}" />
+            <marker date="1529042764274" expanded="true" signature="1675:1752" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/Meta.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <marker date="1529042983085" expanded="true" signature="6:47" ph="..." />
+            <marker date="1529042983085" expanded="true" signature="87:328" ph="{...}" />
+            <marker date="1529042983085" expanded="true" signature="111:326" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/CategoriesResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+          <folding>
+            <marker date="1529043658906" expanded="true" signature="6:52" ph="..." />
+            <marker date="1529043658906" expanded="true" signature="92:214" ph="{...}" />
+            <marker date="1529043658906" expanded="true" signature="145:212" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/ICategoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <marker date="1529043658913" expanded="false" signature="6:66" ph="..." />
+            <marker date="1529043658913" expanded="true" signature="106:501" ph="{...}" />
+            <marker date="1529043658913" expanded="true" signature="149:499" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/FakeCategoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="59" />
+          <folding>
+            <marker date="1529043658930" expanded="false" signature="6:66" ph="..." />
+            <marker date="1529043658930" expanded="true" signature="106:935" ph="{...}" />
+            <marker date="1529043658930" expanded="true" signature="170:933" ph="{...}" />
+            <marker date="1529043658930" expanded="true" signature="253:536" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Controllers/CategoryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <marker date="1529043658919" expanded="true" signature="6:164" ph="..." />
+            <marker date="1529043658919" expanded="true" signature="323:2864" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="406:2862" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="536:598" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="608:718" ph="/// Listado de categorias ... " />
+            <marker date="1529043658919" expanded="true" signature="770:1110" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="872:995" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="1120:1284" ph="/// Agregar nueva categoria ... " />
+            <marker date="1529043658919" expanded="true" signature="1364:1591" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="1410:1538" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="1722:1973" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="1768:1919" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="2081:2323" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="2127:2269" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="2428:2856" ph="{...}" />
+            <marker date="1529043658919" expanded="true" signature="2618:2741" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/Category.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1528730512470" expanded="true" signature="6:58" ph="..." />
+            <marker date="1528730512470" expanded="true" signature="98:324" ph="{...}" />
+            <marker date="1528730512470" expanded="true" signature="126:322" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/EFCategoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="32" column="82" selection-start-line="32" selection-start-column="82" selection-end-line="32" selection-end-column="82" />
+          <folding>
+            <marker date="1529043658925" expanded="true" signature="6:66" ph="..." />
+            <marker date="1529043658925" expanded="true" signature="106:3144" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="168:3142" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="290:346" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="469:1039" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="540:830" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="590:781" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="889:1000" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="1094:1223" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="1290:1652" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="1500:1616" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="1737:2120" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="1929:2084" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="2130:2299" ph="/// Obtiene un solo valor de categoría ... " />
+            <marker date="1529043658925" expanded="true" signature="2362:3136" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="2431:2634" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="2481:2620" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="2830:3003" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="2917:2988" ph="{...}" />
+            <marker date="1529043658925" expanded="true" signature="3020:3084" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/latienda.services.api/Models/CategoryDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <marker date="1528695173163" expanded="false" signature="6:50" ph="..." />
+            <marker date="1528695173163" expanded="true" signature="90:336" ph="{...}" />
+            <marker date="1528695173163" expanded="true" signature="139:334" ph="{...}" />
+            <marker date="1528695173163" expanded="true" signature="251:271" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
