@@ -12674,34 +12674,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\xiillii\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/xiillii/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\JA\\Ejercicios\\LaTienda\\latienda\\services\\latienda.services.api\\latienda.services.api.csproj",
+      "projectUniqueName": "/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/latienda.services.api.csproj",
       "projectName": "latienda.services.api",
-      "projectPath": "E:\\JA\\Ejercicios\\LaTienda\\latienda\\services\\latienda.services.api\\latienda.services.api.csproj",
-      "packagesPath": "C:\\Users\\xiillii\\.nuget\\packages\\",
-      "outputPath": "E:\\JA\\Ejercicios\\LaTienda\\latienda\\services\\latienda.services.api\\obj\\",
+      "projectPath": "/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/latienda.services.api.csproj",
+      "packagesPath": "/Users/xiillii/.nuget/packages/",
+      "outputPath": "/Users/xiillii/Proyectos/LaTienda/services/latienda.services.api/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\xiillii\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "/Users/xiillii/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -12722,6 +12718,7 @@
             "version": "[2.0.0, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
