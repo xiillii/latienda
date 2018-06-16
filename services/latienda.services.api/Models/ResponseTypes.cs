@@ -2,7 +2,7 @@
 {
     public enum ResponseTypes
     {
-        Success,
-        Failed
+        Failed,
+        Success
     }
 }

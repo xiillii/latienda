@@ -15,6 +15,10 @@ namespace latienda.services.api.Models
 
         public IQueryable<Category> Categories => context.Categories;
 
+        /// <summary>
+        /// Get a list of categories
+        /// </summary>
+        /// <returns></returns>
         public CategoriesResponse ListCategories()
         {
             var result = new CategoriesResponse
@@ -37,16 +41,54 @@ namespace latienda.services.api.Models
             return result;
         }
 
-        public Category AddCategory(Category request)
+        /// <summary>
+        /// Add a new category item
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
+        public CategoryResponse AddCategory(Category request)
         {
-            context.Categories.Add(request);
-            context.SaveChanges();
+            var result = new CategoryResponse
+            {
+                Meta = new Meta
+                {
+                    ResponseIdentifier = Guid.NewGuid(),
+                    Date = DateTimeOffset.UtcNow.LocalDateTime
+                }
+            };
 
-            return request;
+            try
+            {
+                context.Categories.Add(request);
+                context.SaveChanges();
+                result.Data = request;
+            }
+            catch (Exception e)
+            {
+                result.Meta.Messages = new List<string> {e.Message};
+            }
+
+
+            
+            return result;
         }
 
-        public Category DeleteCategory(string categoryIdentifier)
+        /// <summary>
+        /// Delete a category item
+        /// </summary>
+        /// <param name="categoryIdentifier"></param>
+        /// <returns></returns>
+        public CategoryResponse DeleteCategory(string categoryIdentifier)
         {
+            var result = new CategoryResponse
+            {
+                Meta = new Meta
+                {
+                    ResponseIdentifier = Guid.NewGuid(),
+                    Date = DateTimeOffset.UtcNow.LocalDateTime
+                }
+            };
+            
             Guid.TryParse(categoryIdentifier, out var _theId);
 
             var item = context.Categories
@@ -56,13 +98,37 @@ namespace latienda.services.api.Models
             {
                 context.Categories.Remove(item);
                 context.SaveChanges();
+
+                result.Data = item;
+            }
+            else
+            {
+                result.Meta.Messages = new List<string>
+                {
+                    "Category Identifier not found"
+                };
             }
 
-            return item;
+            return result;
         }
 
-        public Category UpdateCategory(Category request, string categoryIdentifier)
+        /// <summary>
+        /// Update a category item
+        /// </summary>
+        /// <param name="request"></param>
+        /// <param name="categoryIdentifier"></param>
+        /// <returns></returns>
+        public CategoryResponse UpdateCategory(Category request, string categoryIdentifier)
         {
+            var result = new CategoryResponse
+            {
+                Meta = new Meta
+                {
+                    ResponseIdentifier = Guid.NewGuid(),
+                    Date = DateTimeOffset.UtcNow.LocalDateTime
+                }
+            };
+            
             Guid.TryParse(categoryIdentifier, out var _theId);
             var item = context.Categories.SingleOrDefault(c => c.CategoryId == _theId);
 
@@ -71,9 +137,19 @@ namespace latienda.services.api.Models
                 item.Name = request.Name;
                 item.Active = request.Active;
                 context.SaveChanges();
+
+                
+                result.Data = item;
+            }
+            else
+            {
+                result.Meta.Messages = new List<string>
+                {
+                    "Category Identifier not found"
+                };
             }
 
-            return item;
+            return result;
         }
 
         /// <summary>

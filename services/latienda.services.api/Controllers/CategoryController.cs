@@ -39,47 +39,60 @@ namespace latienda.services.api.Controllers
         }
 
         /// <summary>
-        /// Agregar nueva categoria
+        /// Add a new category item
         /// </summary>
         /// <returns>The post.</returns>
         /// <param name="request">Request.</param>
         [HttpPost]
         public ActionResult Post([FromBody]Category request)
         {
-            if (ModelState.IsValid)
-            {
-                var result = repository.AddCategory(request);
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+            var result = repository.AddCategory(request);
+            
 
-                return Json(result);
+            if (result.Data != null)
+            {
+                result.Meta.Status = ResponseTypes.Success;
+                return Ok(result);
             }
-            return BadRequest(ModelState);
+            
+            result.Meta.Status = ResponseTypes.Failed;
+            return NotFound(result);
         }
 
 
         [HttpPut("{categoryIdentifier}")]
         public ActionResult Put([FromBody]Category request, string categoryIdentifier)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+            var result = repository.UpdateCategory(request, categoryIdentifier);
+
+            if (result.Data != null)
             {
-                var result = repository.UpdateCategory(request, categoryIdentifier);
-
-                return Json(result);
+                result.Meta.Status = ResponseTypes.Success;
+                return Ok(result);
             }
-
-            return BadRequest(ModelState);
+            
+            result.Meta.Status = ResponseTypes.Failed;
+            return NotFound(result);
         }
 
         [HttpDelete("{categoryIdentifier}")]
         public ActionResult Delete(string categoryIdentifier)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+            
+            var result = repository.DeleteCategory(categoryIdentifier);
+
+            if (result.Data != null)
             {
-                var result = repository.DeleteCategory(categoryIdentifier);
-
-                return Json(result);
+                result.Meta.Status = ResponseTypes.Success;
+                return Ok(result);
             }
+            
+            result.Meta.Status = ResponseTypes.Failed;
+            return NotFound(result);
 
-            return BadRequest(ModelState);
         }
 
         [HttpGet("{categoryIdentifier}")]
