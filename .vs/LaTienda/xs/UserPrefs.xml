@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{33E9E233-004E-48BE-B880-A2CD7443890A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="services/latienda.services.api/Controllers/CategoryController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="services/latienda.services.api/appsettings.json">
     <Files>
       <File FileName="services/latienda.services.api/Startup.cs" Line="45" Column="43" />
       <File FileName="services/latienda.services.api/Controllers/CategoryController.cs" Line="1" Column="1" />
       <File FileName="services/latienda.services.api/Controllers/ValuesController.cs" Line="9" Column="32" />
       <File FileName="services/latienda.services.api/latienda.services.api.csproj" Line="1" Column="1" />
-      <File FileName="services/latienda.services.api/appsettings.json" Line="17" Column="126" />
-      <File FileName="services/latienda.services.api/Program.cs" Line="23" Column="88" />
+      <File FileName="services/latienda.services.api/appsettings.json" Line="17" Column="29" />
+      <File FileName="services/latienda.services.api/Program.cs" Line="21" Column="1" />
       <File FileName="services/latienda.services.api/Migrations/CategoryDbContextModelSnapshot.cs" Line="1" Column="1" />
       <File FileName="services/latienda.services.api/Migrations/20180609061423_Initial.Designer.cs" Line="1" Column="1" />
       <File FileName="services/latienda.services.api/Migrations/20180609061423_Initial.cs" Line="1" Column="1" />
@@ -15,6 +15,7 @@
       <File FileName="services/latienda.services.api/Models/Category.cs" Line="12" Column="18" />
       <File FileName="services/latienda.services.api/Models/FakeCategoryRepository.cs" Line="1" Column="1" />
       <File FileName="services/latienda.services.api/Models/CategoryDbContext.cs" Line="13" Column="55" />
+      <File FileName="services/latienda.services.api/appsettings.Development.json" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

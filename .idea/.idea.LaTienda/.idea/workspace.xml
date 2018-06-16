@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8de12122-1b4a-4a07-b2f4-f81a47dec31d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LaTienda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaTienda/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/latienda.services.api/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/services/latienda.services.api/Controllers/CategoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/latienda.services.api/Models/EFCategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/services/latienda.services.api/Models/EFCategoryRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/latienda.services.api/Models/FakeCategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/services/latienda.services.api/Models/FakeCategoryRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/latienda.services.api/Models/ICategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/services/latienda.services.api/Models/ICategoryRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/latienda.services.api/Models/ResponseTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/services/latienda.services.api/Models/ResponseTypes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/latienda.services.api/bin/Debug/netcoreapp2.0/latienda.services.api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/services/latienda.services.api/bin/Debug/netcoreapp2.0/latienda.services.api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/latienda.services.api/bin/Debug/netcoreapp2.0/latienda.services.api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/services/latienda.services.api/bin/Debug/netcoreapp2.0/latienda.services.api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/services/latienda.services.api/obj/Debug/netcoreapp2.0/latienda.services.api.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="8de12122-1b4a-4a07-b2f4-f81a47dec31d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -358,7 +347,7 @@
       <updated>1529035350323</updated>
       <workItem from="1529035360404" duration="827000" />
       <workItem from="1529038019348" duration="5191000" />
-      <workItem from="1529113055446" duration="4725000" />
+      <workItem from="1529113055446" duration="5102000" />
     </task>
     <task id="LOCAL-00001" summary="Operación Get One">
       <created>1529036058404</created>
@@ -378,7 +367,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10743000" />
+    <option name="totallyTimeSpent" value="11120000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,7 +387,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31779662" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31779662" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="NuGet" order="7" />

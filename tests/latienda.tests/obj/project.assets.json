@@ -5625,7 +5625,7 @@
       "projectName": "latienda.tests",
       "projectPath": "/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/latienda.tests.csproj",
       "packagesPath": "/Users/xiillii/.nuget/packages/",
-      "outputPath": "/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/obj/",
+      "outputPath": "/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5654,23 +5654,23 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NET.Test.Sdk": {
-            "target": "Package",
-            "version": "[15.3.0-preview-20170628-02, )"
-          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "15.3.0-preview-20170628-02"
           },
           "xunit": {
             "target": "Package",
-            "version": "[2.2.0, )"
+            "version": "2.2.0"
           },
           "xunit.runner.visualstudio": {
             "target": "Package",
-            "version": "[2.2.0, )"
+            "version": "2.2.0"
           }
         },
         "imports": [
