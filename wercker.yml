@@ -32,3 +32,23 @@ build:
         cdw: latienda.notifications.backend
         code: |
           dotnet clean
+    - script:
+        name: restoreBackend
+        cdw: latienda.notifications.backend
+        code: |
+          dotnet restore
+    - script:
+        name: buildBackend
+        cdw: latienda.notifications.backend
+        code: |
+          dotnet build
+    - script:
+        name: publishBackend
+        cdw: latienda.notifications.backend
+        code: |
+          dotnet publish -o publish
+    - script:
+        name: copy binary Backend
+        cdw: latienda.notifications.backend
+        code: |
+          cp -r . $WERCKER_OUTPUT_DIR/apibackend
