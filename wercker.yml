@@ -27,3 +27,8 @@ build:
         cdw: latienda.services.api
         code: |
           cp -r . $WERCKER_OUTPUT_DIR/services
+    - script:
+        name: cleanBackend
+        cdw: latienda.notifications.backend
+        code: |
+          dotnet clean
