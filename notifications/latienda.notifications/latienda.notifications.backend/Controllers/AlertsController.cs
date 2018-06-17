@@ -1,15 +1,16 @@
-﻿using Microsoft.Azure.NotificationHubs;
-using System;
-using System.Collections.Generic;
+﻿using System.Web.Http;
+using Microsoft.Azure.Mobile.Server.Config;
 using System.Threading.Tasks;
-using System.Web.Http;
+using System;
+using Microsoft.Azure.NotificationHubs;
+using System.Collections.Generic;
 
 namespace latienda.notifications.backend.Controllers
 {
     [RoutePrefix("alerts")]
     public class AlertsController : ApiController
     {
-
+        
         [HttpPost]
         [Route("")]
         public async Task<IHttpActionResult> SendNotificationAsync([FromBody] string message)

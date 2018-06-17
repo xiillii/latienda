@@ -22,6 +22,8 @@ namespace latienda.notifications.backend
                 .UseDefaultConfiguration()
                 .ApplyTo(config);
 
+            config.MapHttpAttributeRoutes();
+
             // Use Entity Framework Code First to create database tables based on your DbContext
             Database.SetInitializer(new MobileServiceInitializer());
 
