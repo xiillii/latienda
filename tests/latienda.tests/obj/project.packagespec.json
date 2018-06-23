@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/latienda.tests.csproj",
+    "projectUniqueName": "/Users/xiillii/Proyectos/LaTiendaProyecto/LaTienda/tests/latienda.tests/latienda.tests.csproj",
     "projectName": "latienda.tests",
-    "projectPath": "/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/latienda.tests.csproj",
-    "outputPath": "/Users/xiillii/Proyectos/LaTienda/tests/latienda.tests/obj/",
+    "projectPath": "/Users/xiillii/Proyectos/LaTiendaProyecto/LaTienda/tests/latienda.tests/latienda.tests.csproj",
+    "outputPath": "/Users/xiillii/Proyectos/LaTiendaProyecto/LaTienda/tests/latienda.tests/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
