@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{02EAA8E1-F32A-45F8-B80F-EF2CDAA533B0}"
@@ -10,6 +10,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2E9E37AE-4D18-472A-9EFA-0881588D1FF7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "latienda.tests", "tests\latienda.tests\latienda.tests.csproj", "{396995DF-1492-4565-944A-CFEE9179A637}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demos", "demos", "{11934B8B-7179-4988-8445-049A783FEE16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceRestConsumer", "demos\ServiceRestConsumer\ServiceRestConsumer.csproj", "{A46176BB-897F-47CE-8271-5DF963B13731}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceRestConsumer.Entities", "demos\ServiceRestConsumer.Entities\ServiceRestConsumer.Entities.csproj", "{5DACCE70-B437-49FB-9755-2D35A158CFAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceRestConsumer.Business", "demos\ServiceRestConsumer.Business\ServiceRestConsumer.Business.csproj", "{9D1FE6FA-3E37-4BBD-A70C-49C971AD8C83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceRestConsumer.Console", "demos\ServiceRestConsumer.Console\ServiceRestConsumer.Console.csproj", "{ECCAC598-2740-4DCB-A6F5-139B034CCDD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,9 +35,29 @@ Global
 		{396995DF-1492-4565-944A-CFEE9179A637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{396995DF-1492-4565-944A-CFEE9179A637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{396995DF-1492-4565-944A-CFEE9179A637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46176BB-897F-47CE-8271-5DF963B13731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46176BB-897F-47CE-8271-5DF963B13731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46176BB-897F-47CE-8271-5DF963B13731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46176BB-897F-47CE-8271-5DF963B13731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DACCE70-B437-49FB-9755-2D35A158CFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DACCE70-B437-49FB-9755-2D35A158CFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DACCE70-B437-49FB-9755-2D35A158CFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DACCE70-B437-49FB-9755-2D35A158CFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D1FE6FA-3E37-4BBD-A70C-49C971AD8C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D1FE6FA-3E37-4BBD-A70C-49C971AD8C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D1FE6FA-3E37-4BBD-A70C-49C971AD8C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D1FE6FA-3E37-4BBD-A70C-49C971AD8C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECCAC598-2740-4DCB-A6F5-139B034CCDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCAC598-2740-4DCB-A6F5-139B034CCDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCAC598-2740-4DCB-A6F5-139B034CCDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCAC598-2740-4DCB-A6F5-139B034CCDD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{33E9E233-004E-48BE-B880-A2CD7443890A} = {02EAA8E1-F32A-45F8-B80F-EF2CDAA533B0}
 		{396995DF-1492-4565-944A-CFEE9179A637} = {2E9E37AE-4D18-472A-9EFA-0881588D1FF7}
+		{A46176BB-897F-47CE-8271-5DF963B13731} = {11934B8B-7179-4988-8445-049A783FEE16}
+		{5DACCE70-B437-49FB-9755-2D35A158CFAF} = {11934B8B-7179-4988-8445-049A783FEE16}
+		{9D1FE6FA-3E37-4BBD-A70C-49C971AD8C83} = {11934B8B-7179-4988-8445-049A783FEE16}
+		{ECCAC598-2740-4DCB-A6F5-139B034CCDD0} = {11934B8B-7179-4988-8445-049A783FEE16}
 	EndGlobalSection
 EndGlobal
